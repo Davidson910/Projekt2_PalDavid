@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CNcBjk5EyQb9s3DlunHQ51ZhxdHtmafgnfbq64qmi9bhJ7LXK48LDbuzzp5bgTJz+tr28KqURC78A+E8wE9klQ==",
+  "success": true,
+  "projectFilePath": "G:\\Mechwart\\Programozás\\Projekt2_PalDavid\\Projekt2_PalDavid\\Projekt2_PalDavid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}
