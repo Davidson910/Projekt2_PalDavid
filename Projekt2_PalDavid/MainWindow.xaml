@@ -8,8 +8,16 @@
         Title="Csigaverseny" Height="750" Width="1000">
     <Grid>
         <Button Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
-        <Button Content="Új futam" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <Button Content="Új futam" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" Width="160" Height="30" IsEnabled="False"/>
         <Button Content="Új bajnokság" HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <Rectangle HorizontalAlignment="Left" Height="560" Margin="10,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="940" Fill="Orange"/>
+        <Label Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="10,610,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="csiga1" HorizontalAlignment="Left" Height="180" Margin="13,54,0,0" VerticalAlignment="Top" Width="197" Source="/csiga1.png"/>
+        <Rectangle HorizontalAlignment="Left" Height="560" Margin="210,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="5" Fill="Black"/>
+        <Image x:Name="csiga2" HorizontalAlignment="Left" Height="180" Margin="13,232,0,0" VerticalAlignment="Top" Width="197" Source="/csiga2.png"/>
+        <Image x:Name="csiga3" HorizontalAlignment="Left" Height="180" Margin="23,417,0,0" VerticalAlignment="Top" Width="187" Source="/csiga3.png"/>
+        <Rectangle HorizontalAlignment="Left" Height="8" Margin="10,232,0,0" Stroke="Black" VerticalAlignment="Top" Width="940" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="8" Margin="10,409,0,0" Stroke="Black" VerticalAlignment="Top" Width="940" Fill="Black"/>
 
 
     </Grid>
