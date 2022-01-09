@@ -62,5 +62,15 @@ namespace Projekt2_PalDavid
             int harmadikHely = 0;
 
         }
+
+        private void bajnoksag_Click(object sender, RoutedEventArgs e)
+        {
+            idozito.Stop();
+            csiga1.Margin = new Thickness(13, 54, 0, 0);
+            csiga2.Margin = new Thickness(13, 232, 0, 0);
+            csiga3.Margin = new Thickness(23, 417, 0, 0);
+            string uzenet = "A csigák nem értek célba.";
+            MessageBox.Show(uzenet);
+        }
     }
 }
