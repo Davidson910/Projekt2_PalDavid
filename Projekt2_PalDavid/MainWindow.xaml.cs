@@ -53,5 +53,14 @@ namespace Projekt2_PalDavid
             csiga2.Margin = new Thickness(13, 232, 0, 0);
             csiga3.Margin = new Thickness(23, 417, 0, 0);
         }
+
+        public class Csiga
+        {
+            int pontok = 0;
+            int elsoHely = 0;
+            int masodikHely = 0;
+            int harmadikHely = 0;
+
+        }
     }
 }
