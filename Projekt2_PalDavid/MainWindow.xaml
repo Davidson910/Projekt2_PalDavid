@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Projekt2_PalDavid"
         mc:Ignorable="d"
-        Title="Csigaverseny" Height="750" Width="1000">
+        Title="Csigaverseny" Height="750" Width="1000" Name="ablak">
     <Grid>
-        <Button Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
-        <Button Content="Új futam" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" Width="160" Height="30" IsEnabled="False"/>
-        <Button Content="Új bajnokság" HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <Button x:Name="start" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="160" Height="30" Click="start_Click"/>
+        <Button x:Name="futam" Content="Új futam" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" Width="160" Height="30" IsEnabled="False"/>
+        <Button x:Name="bajnoksag" Content="Új bajnokság" HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
         <Rectangle HorizontalAlignment="Left" Height="560" Margin="10,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="940" Fill="Orange"/>
         <Label Content="A bajnokság állása:" HorizontalAlignment="Left" Margin="10,610,0,0" VerticalAlignment="Top"/>
         <Image x:Name="csiga1" HorizontalAlignment="Left" Height="180" Margin="13,54,0,0" VerticalAlignment="Top" Width="197" Source="/csiga1.png"/>
